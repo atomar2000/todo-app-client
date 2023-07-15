@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.box1 {
+  background-color: red;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+.box2 {
+  background-color: blue;
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+}
